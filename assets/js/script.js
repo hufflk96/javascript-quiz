@@ -30,7 +30,6 @@ var questions = [
         answer: "Function/Method"
     }];
 
-
 //setting variables 
 var questionsEl = document.querySelector("#questions");
 var timerEl = document.querySelector("#timer");
