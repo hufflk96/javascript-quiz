@@ -41,7 +41,7 @@ var feedbackEl = document.querySelector("#feedback");
 var viewHighScoresel= document.querySelector("#View-High-Scores")
 var reStartBtn = document.querySelector("#restart");
 var currentQuestionIndex = 0;
-var time = questions.length * 10;
+var time = questions.length * 15;
 var timerId;
 
 
