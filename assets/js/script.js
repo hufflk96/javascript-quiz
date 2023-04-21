@@ -1,17 +1,3 @@
-//setting variables 
-var questionsEl = document.querySelector("#questions");
-var timerEl = document.querySelector("#timer");
-var choicesEl = document.querySelector("#options");
-var submitBtn = document.querySelector("#submit-score");
-var startBtn = document.querySelector("#start");
-var nameEl = document.querySelector("#name");
-var feedbackEl = document.querySelector("#feedback");
-var viewHighScoresel= document.querySelector("#View-High-Scores")
-var reStartBtn = document.querySelector("#restart");
-var currentQuestionIndex = 0;
-var time = questions.length * 10;
-var timerId;
-
 //javascript quiz questions
 var questions = [
     {
@@ -43,6 +29,22 @@ var questions = [
         options: ["Function/Method", "Preprocessor", "Triggering Event", "RMI"],
         answer: "Function/Method"
     }];
+
+
+//setting variables 
+var questionsEl = document.querySelector("#questions");
+var timerEl = document.querySelector("#timer");
+var choicesEl = document.querySelector("#options");
+var submitBtn = document.querySelector("#submit-score");
+var startBtn = document.querySelector("#start");
+var nameEl = document.querySelector("#name");
+var feedbackEl = document.querySelector("#feedback");
+var viewHighScoresel= document.querySelector("#View-High-Scores")
+var reStartBtn = document.querySelector("#restart");
+var currentQuestionIndex = 0;
+var time = questions.length * 10;
+var timerId;
+
 
 function quizStart() {
     timerId = setInterval(clockTick, 1000);
