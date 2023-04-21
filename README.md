@@ -7,6 +7,6 @@
 - The use of the game is to test how much you know from fundamentals of javascript!
 
 ## Links
-
+- https://hufflk96.github.io/javascript-quiz/ 
 ## Example Screenshot
 
