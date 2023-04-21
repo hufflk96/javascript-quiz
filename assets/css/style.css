@@ -1,0 +1,77 @@
+* {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.quiz, .scores {
+    margin: 100px auto 0 auto;
+    max-width: 400px;
+}
+
+p {
+    margin: 15px 15px;
+}
+
+.landing {
+    text-align: center;
+}
+
+.scoresHeader {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.timer {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color:red
+}
+
+button {
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    color: rgb(252, 245, 245);
+    background-color: #5829da;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #739fb3;
+}
+
+.options button {
+    display: block;
+}
+
+input[type="text"] {
+    font-size: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.feedback {
+    font-style: bold;
+    font-size: 120%;
+    margin-top: 20px;
+    color: #fff;
+    border-top: 4px solid #5829da;
+}
+
+ol {
+    padding-left: 15px;
+    max-height: 600px;
+    overflow: auto;
+}
+
+li {
+    padding: 5px;
+    list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+    background-color: #dfdae7;
+}
