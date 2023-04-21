@@ -9,4 +9,5 @@
 ## Links
 - https://hufflk96.github.io/javascript-quiz/ 
 ## Example Screenshot
+![JavaScript quiz screenshot](https://user-images.githubusercontent.com/118147274/233714602-3d395087-43ef-4f46-8d60-5bec9782cbb1.png)
 
